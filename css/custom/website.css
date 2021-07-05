@@ -1,0 +1,51 @@
+body > .container {
+    padding: 80px 15px 0;
+}
+
+.list-group-item {
+    border: 0px;
+}
+
+.list-inline {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.spacer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: block;
+}
+
+.paper-button {
+    margin-top: 0.25em;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(1.025);
+}
+
+.headline {
+    text-transform: uppercase;
+    color: #343a40;
+}
+
+.carousel-caption {
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    text-align: center;
+    background-color: #ffffffc2;
+    color: #000;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.carousel-caption > h5 {
+    margin-bottom: 0px;
+}
