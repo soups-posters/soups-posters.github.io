@@ -18,8 +18,8 @@ $(document).ready(function () {
             e.preventDefault();
             var hash = link.split('#')[1];
             $('body,html').animate({
-                scrollTop: $(link).offset().top - 70
-            }, 700);
+                scrollTop: $(link).offset().top - 60
+            }, 350);
             window.location.hash = hash;
         }
     });
